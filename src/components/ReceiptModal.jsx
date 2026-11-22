@@ -43,7 +43,7 @@ export default function ReceiptModal() {
           <div className="text-center space-y-1.5 pb-3 border-b-2 border-slate-900">
             <div className="flex items-center justify-center gap-3">
               <img
-                src={shopSettings.logoUrl || `${import.meta.env.BASE_URL}logo.jpg`}
+                src={shopSettings.logoUrl || "/logo.jpg"}
                 alt="Logo"
                 className="w-12 h-12 rounded-lg object-cover border border-slate-400 shadow-sm"
               />

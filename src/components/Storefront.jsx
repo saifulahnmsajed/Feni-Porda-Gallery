@@ -79,7 +79,7 @@ export default function Storefront() {
           className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-xl border border-amber-200/50 bg-amber-50/20 cursor-pointer transition-shadow"
         >
           <img
-            src={`${import.meta.env.BASE_URL}banner.webp?v=4`}
+            src="/banner.webp?v=4"
             alt="ফেনী পর্দা গ্যালারী - ঘরের সৌন্দর্যে নতুন ছোঁয়া"
             className="w-full h-auto block"
           />

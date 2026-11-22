@@ -87,7 +87,7 @@ function MainApp() {
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-xl overflow-hidden border border-amber-400/50 bg-slate-950 flex-shrink-0">
                   <img
-                    src={shopSettings.logoUrl || `${import.meta.env.BASE_URL}logo.jpg`}
+                    src={shopSettings.logoUrl || "/logo.jpg"}
                     alt="Logo"
                     className="w-full h-full object-cover"
                   />

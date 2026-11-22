@@ -97,7 +97,7 @@ export default function AuthModal() {
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl overflow-hidden border border-amber-400/50 bg-slate-900 flex-shrink-0">
               <img
-                src={shopSettings.logoUrl || `${import.meta.env.BASE_URL}logo.jpg`}
+                src={shopSettings.logoUrl || "/logo.jpg"}
                 alt="Logo"
                 className="w-full h-full object-cover"
               />
