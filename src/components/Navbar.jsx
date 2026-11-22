@@ -66,7 +66,7 @@ export default function Navbar() {
           >
             <div className="w-12 h-12 rounded-xl overflow-hidden border-2 border-amber-500/40 shadow-md group-hover:scale-105 transition-transform bg-slate-900 flex-shrink-0">
               <img
-                src={shopSettings.logoUrl || "/logo.jpg"}
+                src={shopSettings.logoUrl || `${import.meta.env.BASE_URL}logo.jpg`}
                 alt="Feni Porda Gallery Logo"
                 className="w-full h-full object-cover"
               />

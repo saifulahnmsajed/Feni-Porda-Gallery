@@ -232,8 +232,8 @@ export const CATEGORIES = [
 export const INITIAL_SHOP_SETTINGS = {
   storeName: "ফেনী পর্দা গ্যালারী (Feni Porda Gallery)",
   storeSubtitle: "ঘরের সৌন্দর্যে নতুন ছোঁয়া — প্রিমিয়াম পর্দা • আধুনিক ডিজাইন • সাশ্রয়ী মূল্য",
-  logoUrl: "/logo.jpg",
-  bannerUrl: "/banner.webp",
+  logoUrl: `${import.meta.env.BASE_URL}logo.jpg`,
+  bannerUrl: `${import.meta.env.BASE_URL}banner.webp`,
   proprietor: "প্রোঃ মোঃ সেলিম",
   phone: "০১৮১৮-০৫৬৩৫৪ / ০১৯১৮-২৪৪৬৯০",
   email: "fenipordagallery@gmail.com",

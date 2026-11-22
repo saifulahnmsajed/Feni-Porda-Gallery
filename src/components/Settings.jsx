@@ -75,7 +75,7 @@ export default function Settings() {
           <div className="flex items-center gap-4 p-3 bg-slate-50 rounded-2xl border border-slate-200">
             <div className="w-16 h-16 rounded-xl overflow-hidden border-2 border-amber-400 bg-slate-900 shadow flex-shrink-0">
               <img
-                src={formData.logoUrl || "/logo.jpg"}
+                src={formData.logoUrl || `${import.meta.env.BASE_URL}logo.jpg`}
                 alt="Logo Preview"
                 className="w-full h-full object-cover"
               />
@@ -84,7 +84,7 @@ export default function Settings() {
               <label className="block font-bold text-slate-700 mb-1">দোকানের লোগো ফাইল বা লিংক (Logo Path / URL)</label>
               <input
                 type="text"
-                value={formData.logoUrl || "/logo.jpg"}
+                value={formData.logoUrl || `${import.meta.env.BASE_URL}logo.jpg`}
                 onChange={(e) => setFormData({ ...formData, logoUrl: e.target.value })}
                 className="w-full px-3 py-1.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 font-mono text-xs"
               />
